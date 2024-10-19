@@ -228,15 +228,35 @@ header {
     height: 70px;
 }
 
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-50% - 4rem));
+    }
+}
+
 .arrival__container.section__header {
     margin-bottom: 4rem;
     max-width: fit-content;
 }
 
-@keyframes scroll {
-    to {
-        transform: translateX(calc(-50% - 4rem));
-    }
+.arrival__container .section__header::before {
+    content: "";
+}
+
+.arrival_grid {
+    display: grid;
+    grid-area: 2rem;
+}
+
+.arrival__card {
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.arrival__image {
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 @media (width > 540px) {
