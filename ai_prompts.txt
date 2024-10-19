@@ -1,5 +1,7 @@
--- The assets of the model images were generated using Grok AI.
+-- The assets of the model images were generated using Grok AI and Copilot AI.
 -- The following are some of the prompts used.
+
+/* Grok AI */
 
 I am building a website for a client who runs a fashion business. 
 Generate for me 1 attractive image of Kenyan fashion. 
@@ -7,7 +9,7 @@ The image should be of a woman.
 Ensure that the lighting is bright in the photo. 
 The model in this image should also be Kenyan. 
 The model is dark-skinned. 
-The point of the image is for the model to display one of the the different outfits on sale.
+The point of the image is for the model to display one of the different outfits on sale.
 
 
 I am building a website for a client who runs a fashion business. 
@@ -16,8 +18,10 @@ The image should be of a woman.
 Ensure that the lighting is bright in the photo. 
 The model in this image should also be Kenyan. 
 The model is light-brown-skinned. 
-The point of the image is for the model to display one of the the different outfits on sale. 
+The point of the image is for the model to display one of the different outfits on sale. 
 The model should have an afro and the photo should be full length.
+
+/* Copilot */
 
 I am building a website for a client who runs a fashion business. 
 Generate for me 1 attractive image of Kenyan fashion. 
@@ -25,4 +29,5 @@ The image should be of a man.
 Ensure that the lighting is bright in the photo. 
 The model in this image should also be Kenyan. 
 The model is light-skinned. 
-The point of the image is for the model to display one of the the different outfits on sale.
+The point of the image is for the model to display one of the different outfits on sale.
+
