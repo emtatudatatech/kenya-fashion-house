@@ -243,9 +243,9 @@ header {
     content: "";
 }
 
-.arrival_grid {
+.arrival__grid {
     display: grid;
-    grid-area: 2rem;
+    gap: 2rem;
 }
 
 .arrival__card {
@@ -259,10 +259,50 @@ header {
     overflow: hidden;
 }
 
+.arrival__image img {
+    transition: 0.3s;
+}
+
+.arrival__card::hover .arrival__image img {
+    transform: scale(1.1);
+}
+
+.arrival__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.arrival__content h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.arrival__content a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.arrival__content a:hover {
+    color: var(--primary-color);
+}
+
+.arrival__content span {
+    font-size: 1.5rem;
+    color: var(--text-light);
+}
+
 @media (width > 540px) {
     .header__content h1 {
         font-size: 5rem;
         line-height: 6.5rem;
+    }
+
+    .arrival__grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -336,5 +376,9 @@ header {
         right: 1rem;
         top: 2rem;
         z-index: -1;
+    }
+
+    .arrival__grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }

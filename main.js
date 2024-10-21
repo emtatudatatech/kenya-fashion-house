@@ -46,3 +46,8 @@ bannerContent.forEach((item) => {
     duplicateNode.setAttribute("aria-hidden", true)
     banner.appendChild(duplicateNode);
 });
+
+ScrollReveal().reveal(".arrival__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
