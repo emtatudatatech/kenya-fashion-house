@@ -295,6 +295,27 @@ header {
     color: var(--text-light);
 }
 
+.sale {
+    background-color: var(--text-light);
+}
+
+.sale__container {
+    padding-block: 1rem 0;
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.sale__image img {
+    max-width: 500px;
+    margin-inline: 5rem;
+    filter: drop-shadow(20px 20px 15px rgba(0, 0, 0, 0.5));
+}
+
+.sale__content {
+    padding-bottom: 4rem;
+}
+
 @media (width > 540px) {
     .header__content h1 {
         font-size: 5rem;
