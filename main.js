@@ -46,3 +46,29 @@ bannerContent.forEach((item) => {
     duplicateNode.setAttribute("aria-hidden", true)
     banner.appendChild(duplicateNode);
 });
+
+ScrollReveal().reveal(".arrival__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
+ScrollReveal().reveal(".sale__image img", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+ScrollReveal().reveal(".sale__content h2", {
+    ...scrollRevealOption,
+    delay:500,
+});
+ScrollReveal().reveal(".sale__content p", {
+    ...scrollRevealOption,
+    delay:1000,
+});
+ScrollReveal().reveal(".sale__content h4", {
+    ...scrollRevealOption,
+    delay:1000,
+});
+ScrollReveal().reveal(".sale__btns", {
+    ...scrollRevealOption,
+    delay:1500,
+});
