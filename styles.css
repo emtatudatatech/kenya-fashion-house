@@ -358,6 +358,10 @@ header {
     background-color: var(--white);
 }
 
+.favourite__container {
+    overflow: hidden;
+}
+
 .favourite__container.section__header {
     margin-bottom: 4rem;
     max-width: fit-content;
@@ -396,6 +400,27 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+}
+
+.favourite__content h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.favourite__content a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.favourite__content a:hover {
+    color: var(--primary-color);
+}
+
+.favourite__content span {
+    font-size: 1.5rem;
+    color: var(--text-light);
 }
 
 @media (width > 540px) {
@@ -492,5 +517,9 @@ header {
 
     .sale__content {
         padding-block: 4rem;
+    }
+
+    .favourite__grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
