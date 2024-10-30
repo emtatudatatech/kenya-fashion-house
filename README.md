@@ -16,3 +16,8 @@ This project seeks to create an example of a responsive fashion website using HT
 
 [Logo Icons and Banners](https://www.pngwing.com/)
 <br><br>
+
+[Application Store Icons](https://icons8.com/icons)
+<br><br>
+
+[Additional Application Store Icons](https://www.logo.wine/)
