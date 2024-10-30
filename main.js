@@ -72,3 +72,8 @@ ScrollReveal().reveal(".sale__btns", {
     ...scrollRevealOption,
     delay:1500,
 });
+
+ScrollReveal().reveal(".favourite__card", {
+    ...scrollRevealOption,
+    interval: 500,
+});
